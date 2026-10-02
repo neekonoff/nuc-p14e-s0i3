@@ -1,0 +1,65 @@
+T   05 | Log System Boot Event                        | [00]Disabled               | default: [01]Enabled
+T   08 | Log EFI Status Code                          | [00]Disabled               | default: [01]Enabled
+T   22 | Upid State                                   | [00]Disabled               | default: [01]Enabled
+T   26 | SATA Port 2                                  | 0                          | default: 1
+T 1602 | L1 Substates                                 | [01]L1.1                   | default: [02]L1.1 & L1.2
+T  145 | Wake on USB from S5                          | 0                          | default: 1
+T 272A | CPU Flex Ratio Settings                      | <27>                       | default: <20>
+T  316 | Power Limit 4                                | <121000>                   | default: <0>
+T 2735 | P-core Turbo Ratio Limit Numcore0            | <1>                        | default: <0>
+T 2736 | P-core Turbo Ratio Limit Numcore1            | <2>                        | default: <0>
+T 2737 | P-core Turbo Ratio Limit Numcore2            | <3>                        | default: <0>
+T 2738 | P-core Turbo Ratio Limit Numcore3            | <4>                        | default: <0>
+T 2739 | P-core Turbo Ratio Limit Numcore4            | <5>                        | default: <0>
+T 273A | P-core Turbo Ratio Limit Numcore5            | <6>                        | default: <0>
+T 273B | P-core Turbo Ratio Limit Numcore6            | <7>                        | default: <0>
+T 273C | P-core Turbo Ratio Limit Numcore7            | <8>                        | default: <0>
+T 273D | P-core Turbo Ratio Limit Ratio0              | <48>                       | default: <0>
+T 273E | P-core Turbo Ratio Limit Ratio1              | <42>                       | default: <0>
+T 273F | P-core Turbo Ratio Limit Ratio2              | <42>                       | default: <0>
+T 2740 | P-core Turbo Ratio Limit Ratio3              | <42>                       | default: <0>
+T 2741 | P-core Turbo Ratio Limit Ratio4              | <42>                       | default: <0>
+T 2742 | P-core Turbo Ratio Limit Ratio5              | <42>                       | default: <0>
+T 2743 | P-core Turbo Ratio Limit Ratio6              | <42>                       | default: <0>
+T 2744 | P-core Turbo Ratio Limit Ratio7              | <42>                       | default: <0>
+T 2745 | E-core Turbo Ratio Limit Numcore0            | <1>                        | default: <0>
+T 2746 | E-core Turbo Ratio Limit Numcore1            | <2>                        | default: <0>
+T 2747 | E-core Turbo Ratio Limit Numcore2            | <3>                        | default: <0>
+T 2748 | E-core Turbo Ratio Limit Numcore3            | <4>                        | default: <0>
+T 2749 | E-core Turbo Ratio Limit Numcore4            | <5>                        | default: <0>
+T 274A | E-core Turbo Ratio Limit Numcore5            | <6>                        | default: <0>
+T 274B | E-core Turbo Ratio Limit Numcore6            | <7>                        | default: <0>
+T 274C | E-core Turbo Ratio Limit Numcore7            | <8>                        | default: <0>
+T 274D | E-core Turbo Ratio Limit Ratio0              | <36>                       | default: <0>
+T 274E | E-core Turbo Ratio Limit Ratio1              | <36>                       | default: <0>
+T 274F | E-core Turbo Ratio Limit Ratio2              | <36>                       | default: <0>
+T 2750 | E-core Turbo Ratio Limit Ratio3              | <36>                       | default: <0>
+T 2751 | E-core Turbo Ratio Limit Ratio4              | <36>                       | default: <0>
+T 2752 | E-core Turbo Ratio Limit Ratio5              | <36>                       | default: <0>
+T 2753 | E-core Turbo Ratio Limit Ratio6              | <36>                       | default: <0>
+T 2754 | E-core Turbo Ratio Limit Ratio7              | <36>                       | default: <0>
+T  375 | Power Limit 1 Override                       | [01]Enabled                | default: [00]Disabled
+T  376 | Power Limit 1                                | <33000>                    | default: <0>
+T  377 | Power Limit 1 Time Window                    | [1C]28                     | default: [00]0
+T  379 | Power Limit 2                                | <45000>                    | default: <0>
+T  3DC | Power Limit 1                                | <33000>                    | default: <0>
+T  3DD | Power Limit 2                                | <45000>                    | default: <0>
+T  3DE | Power Limit 1 Time Window                    | [1C]28                     | default: [00]0
+T  3E0 | Power Limit 1                                | <33000>                    | default: <0>
+T  3E1 | Power Limit 2                                | <45000>                    | default: <0>
+T  3E2 | Power Limit 1 Time Window                    | [1C]28                     | default: [00]0
+T  3E4 | Power Limit 1                                | <33000>                    | default: <0>
+T  3E5 | Power Limit 2                                | <45000>                    | default: <0>
+T  3E6 | Power Limit 1 Time Window                    | [1C]28                     | default: [00]0
+T 27DF | Manageability Features State                 | [00]Disabled               | default: [01]Enabled
+T  60A | CPU Run Control                              | [00]Disabled               | default: [02]No Change
+T  63C | TPM 2.0 InterfaceType                        | [01]TIS                    | default: [00]CRB
+T  69F | IPv4 PXE Support                             | [01]Enabled                | default: [00]Disabled
+T  6A1 | IPv6 PXE Support                             | [01]Enabled                | default: [00]Disabled
+T  AAB | VCCST status of IOM                          | [00]Disabled               | default: [01]Enabled
+T  B7E | Enable TCO Timer                             | [00]Disabled               | default: [01]Enabled
+T  CCA | PCI Express Root Port 9                      | [00]Disabled               | default: [01]Enabled
+T  E7C | Sound Research IP                            | 1                          | default: 0
+T  E86 | Custom Module 'Alpha'                        | 1                          | default: 0
+T 296B | Secure Boot                                  | [00]Disabled               | default: [01]Enabled
+differ from BIOS Default: 64
